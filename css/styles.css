@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kanit:wght@500&family=Nunito:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Open+Sans:wght@300&family=Roboto&display=swap');
 
 *{
     margin: 0;
@@ -12,10 +12,10 @@ html{
 
 body{
     font-size: clamp(1rem, 2.2vh, 1.5rem);
-    font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 4rem auto 0rem;
+    background-color: hsl(212, 45%, 89%);
 }
 
 img{
@@ -26,12 +26,12 @@ img{
 
 .main{
     width: 330px;
-    height: 500px;
-    border: 2px solid black;
+    height: 530px;
     border-radius: 25px;
     overflow: hidden;
     text-align: center;
-    margin-top: 2%;
+    background-color: white;
+    margin-left: 25%;
 }
 
 .image{
@@ -42,12 +42,11 @@ img{
 }
 
 .qr_code_info_head{
-    line-height: 1.5;
+    margin-bottom: 1.3rem;
     font-family: 'Kanit', sans-serif;
 }
 
 .qr_code_info_footer{
     line-height: 1.5;
-    font-family: 'Nunito', sans-serif;
-    margin-top: 1.5rem;
+    font-size: 0.8rem;
 }
