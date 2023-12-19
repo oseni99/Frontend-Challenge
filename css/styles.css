@@ -13,9 +13,7 @@ html{
 body{
     font-size: clamp(1rem, 2.2vh, 1.5rem);
     font-family: 'Open Sans', sans-serif;
-    max-width: 800px;
     min-height: 100vh;
-    margin: 4rem auto 0rem;
     background-color: hsl(212, 45%, 89%);
 }
 
@@ -29,10 +27,16 @@ img{
 .card{
     padding: 1rem;
     background-color:  hsl(0, 0%, 100%);
-    width: 330px;
+    max-width: 330px;
     border-radius: 20px;
     text-align: center;
-    margin-left: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
 }
 
 .qr_code_info_head{
