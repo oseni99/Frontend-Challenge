@@ -34,9 +34,10 @@ img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .qr_code_info_head{
